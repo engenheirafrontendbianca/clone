@@ -1,0 +1,46 @@
+.plans {
+    padding: 5.6vw;
+
+    h2 {
+        text-align: center;
+    }
+
+    &__list {
+       display:inline-block;
+       max-width: 375px;
+
+
+       @media (max-width:768px) {
+        display: block;
+       }
+
+       .button {
+        margin-top: 24px;
+       }
+        
+        &__item {
+            text-align: center;
+            padding: 60px 44px 44px;
+            max-width: 380px;
+            width: 100%;
+        
+            
+            strong {
+                display: block;
+                margin-top: 24px;
+            }
+
+            img {
+                height: 83px;
+                max-width: 100px;
+            }
+        } 
+
+       
+    }
+
+    p {
+        text-align: center;
+    }
+
+    }
