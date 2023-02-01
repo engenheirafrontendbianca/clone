@@ -6,13 +6,14 @@
     }
 
     &__list {
-       display:inline-block;
-       max-width: 375px;
+        display: inline-flex;
+        justify-content: space-around;
 
-
-       @media (max-width:768px) {
-        display: block;
-       }
+        @media (max-width:768px) {
+            display: block;
+            
+           }
+       
 
        .button {
         margin-top: 24px;
@@ -21,9 +22,8 @@
         &__item {
             text-align: center;
             padding: 60px 44px 44px;
-            max-width: 380px;
-            width: 100%;
-        
+            max-width: 330px;
+            width: 100%;    
             
             strong {
                 display: block;
@@ -32,7 +32,6 @@
 
             img {
                 height: 83px;
-                max-width: 100px;
             }
         } 
 
